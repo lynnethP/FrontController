@@ -1,0 +1,59 @@
+/*:root {
+    --dark: #16191C;
+    --dark-x: #1E2126; 
+    --light: #ffffff;
+}
+*/
+body {
+    font-family: 'Time New Roman';
+    font-weight: 300;
+    color: var(--light);
+}
+
+.text-light { color: #fff !important; }
+
+#bg-dark { background-color: #16191C !important; }
+
+.imagen { 
+    width: 750px;
+    height: 700px;
+
+ }
+.imagen-2 { 
+       width: 750px;
+    height: 700px;
+ }
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+#d-inline-block{
+    color: #fff;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.form-control:focus {
+    background-color: var(--dark-x);
+    outline: none;
+}
+
+.img-1 {
+/*    background-image: url(<?=_ASSETS_?>img/img-1.jpg?>);*/
+    width: 10px;
+/*    background-size: cover;
+    background-position: center;*/
+}
+
+.img-2 {
+
+    background-size: cover;
+    background-position: center;
+}
+ .font-weight-bold{
+    color: #fff;
+
+}
